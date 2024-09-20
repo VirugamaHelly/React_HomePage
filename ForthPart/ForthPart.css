@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay-container2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-text2 {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.26);
+    font-size: 18px;
+    display: none;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.overlay-text2 p {
+    font-size: 13px;
+}
+
+.overlay-container2:hover .overlay-text2 {
+    display: block;
+}

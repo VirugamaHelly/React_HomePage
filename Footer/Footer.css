@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    background-color: #2a2a2a;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 200px;
+}
+
+.First_part .text,
+.text-2 {
+    height: 172px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    background: #272727;
+    outline: 4px solid #272727;
+    color: #777777;
+}
+
+.First_part .text-2 {
+    background: #2a2a2a;
+    outline: 4px solid #2a2a2a;
+}
+.blog p{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}
+.pera p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 11px;
+    color: #777777;
+}
+.Last_pera p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #777777;
+}
+.Last_pera span{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff4f40;
+}
+.Last{
+    border: none;
+    background: #232323;
+}
